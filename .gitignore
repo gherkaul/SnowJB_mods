@@ -1,0 +1,4 @@
+#Ignore dist directory
+*/dist
+*/build/apk
+!*/build/apk/META-INF
