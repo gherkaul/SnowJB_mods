@@ -1269,6 +1269,8 @@
     .parameter "playSound"
     .parameter "plugType"
 
+    return-void #SnowLeopardJB - disable full charging notification
+
     .prologue
     const v12, 0x7f090108
 
@@ -1932,6 +1934,8 @@
 
 .method public showSlowCharginNotification()V
     .locals 13
+
+    return-void #SnowLeopardJB - disable slow charging notification, may turn this back on / make it toggleable
 
     .prologue
     const v12, 0x7f0202b2
