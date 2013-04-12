@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/lge_carrierlabel_4dualsim" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/carrierlabel_sim_one" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+            <TextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="center" android:id="@id/carrierlabel_one" android:paddingLeft="0.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="1.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/carrierlabel_sim_two" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+            <TextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="center" android:id="@id/carrierlabel_two" android:paddingLeft="0.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

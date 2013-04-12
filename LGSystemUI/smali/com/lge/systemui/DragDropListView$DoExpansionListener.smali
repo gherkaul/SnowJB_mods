@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/lge/systemui/DragDropListView$DoExpansionListener;
+.super Ljava/lang/Object;
+.source "DragDropListView.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/lge/systemui/DragDropListView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "DoExpansionListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract doExpansion(I)V
+.end method

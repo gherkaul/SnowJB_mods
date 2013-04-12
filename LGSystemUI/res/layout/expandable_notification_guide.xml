@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/help_image_bg_popup" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/help_image_popup_height" android:layout_marginLeft="9.329987dip" android:layout_marginRight="9.329987dip">
+        <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/help_image_popup_title" android:layout_gravity="left" android:id="@id/guide_tip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.329987dip" android:layout_marginTop="22.0dip" android:text="@string/sp_tip_NORMAL" android:includeFontPadding="false" />
+            <ImageView android:layout_gravity="right" android:id="@id/dismiss_imageView" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="13.329987dip" android:layout_marginRight="13.329987dip" android:src="@drawable/lg_editmenu_btn_close" />
+        </FrameLayout>
+        <TextView android:textAppearance="@style/help_image_popup_list" android:gravity="left" android:id="@id/guide_tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.329987dip" android:layout_marginTop="11.329987dip" android:layout_marginRight="23.329987dip" android:text="@string/expandable_notification_guide_text" android:includeFontPadding="false" android:lineSpacingExtra="0.6600001dip" />
+        <CheckBox android:textAppearance="@style/help_image_popup_info" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@id/guide_tip_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.659973dip" android:checked="true" android:button="@drawable/btn_check_holo_light" android:text="@string/sp_do_not_show_again_NORMAL" android:includeFontPadding="false" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="102.66dip" android:src="@drawable/help_image_customization_guide_arrow" />
+        <ImageView android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_image_customization_guide_hand" />
+    </FrameLayout>
+</LinearLayout>

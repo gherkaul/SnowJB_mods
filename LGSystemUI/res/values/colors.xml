@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_panel_solid_background">#ff000000</color>
+    <color name="status_bar_recents_app_label_color">#ffffffff</color>
+    <color name="notification_list_shadow_top">#80000000</color>
+    <color name="notification_tip_text_01">#ff4d4d4d</color>
+    <color name="ir_control_top_on">#ff000000</color>
+    <color name="ir_control_top_off">#ffffffff</color>
+    <color name="ir_control_title_text_color">#ff176398</color>
+    <color name="ir_control_noti_gray">#66ffffff</color>
+    <color name="ir_control_noti_disable">#60000000</color>
+    <color name="bg_expanded">#b3000000</color>
+</resources>

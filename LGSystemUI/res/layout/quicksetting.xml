@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/status_bar_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.lge.systemui.ArrowHorizontalScrollView android:orientation="horizontal" android:id="@id/quicksettings_container" android:background="@drawable/status_bar_background" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/quicksettings_page" android:tag="NO_R2L" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </com.lge.systemui.ArrowHorizontalScrollView>
+            <ImageView android:layout_gravity="left|center" android:id="@id/arrow_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/indi_noti_visual_cue_left" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/arrow_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/indi_noti_visual_cue_right" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

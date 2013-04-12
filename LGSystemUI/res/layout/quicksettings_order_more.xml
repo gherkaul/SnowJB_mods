@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="52.0dip" android:layout_height="32.0dip" android:layout_marginRight="10.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:textSize="12.0dip" android:textColor="@drawable/quicksettings_button_off_text_color" android:gravity="center" android:id="@id/more" android:background="@drawable/quicksettings_order_more_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@*android:string/more_item_label" />
+    </LinearLayout>
+</LinearLayout>

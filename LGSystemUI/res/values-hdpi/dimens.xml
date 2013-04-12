@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="close_handle_underlap">34.0dip</dimen>
+    <dimen name="toast_top_offset">74.32999dip</dimen>
+    <dimen name="operator_view_width">220.0dip</dimen>
+    <dimen name="recentapp_land_cmd_height">40.0dip</dimen>
+    <dimen name="recentapp_land_lgu_total_width">112.0dip</dimen>
+    <dimen name="recentapp_land_lgu_text_height">41.329987dip</dimen>
+    <dimen name="recentapp_land_ktf_total_width">72.0dip</dimen>
+    <dimen name="recentapp_port_cmd_height">58.0dip</dimen>
+    <dimen name="recentapp_port_cmd2_height">49.0dip</dimen>
+    <dimen name="recentapp_port_lgu_total_height">112.0dip</dimen>
+    <dimen name="recentapp_port_lgu_padding1">11.329987dip</dimen>
+    <dimen name="recentapp_port_lgu_padding4">11.329987dip</dimen>
+    <dimen name="recentapp_port_ktf_total_height">72.0dip</dimen>
+    <dimen name="floating_icon_size">72.0px</dimen>
+    <dimen name="brightness_left_padding">16.0dip</dimen>
+    <dimen name="brightness_top_padding">11.0dip</dimen>
+    <dimen name="quicksetting_text_top_padding">39.0dip</dimen>
+    <dimen name="quicksetting_button_paddingTop">6.0dip</dimen>
+    <dimen name="quicksetting_lineSpacingExtra">-2.0dip</dimen>
+    <dimen name="notification_tip_text_size">16.0dip</dimen>
+    <dimen name="notification_tip_height">75.0dip</dimen>
+    <dimen name="notification_tip_padding_top">9.5dip</dimen>
+    <dimen name="notification_tip_padding_bottom">10.5dip</dimen>
+    <dimen name="notification_tip_padding_side">13.5dip</dimen>
+    <dimen name="notification_tip_dismissbutton_padding_top">8.5dip</dimen>
+    <dimen name="notification_tip_dismissbutton_padding_right">5.5dip</dimen>
+    <dimen name="setting_divider_width">1.3299866dip</dimen>
+</resources>

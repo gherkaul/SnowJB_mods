@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="300" android:drawable="@drawable/stat_sys_data_out_h_atnt_1" />
+    <item android:duration="300" android:drawable="@drawable/stat_sys_data_out_h_atnt_2" />
+    <item android:duration="300" android:drawable="@drawable/stat_sys_data_out_h_atnt_3" />
+    <item android:duration="300" android:drawable="@drawable/stat_sys_data_in_h_atnt_1" />
+    <item android:duration="300" android:drawable="@drawable/stat_sys_data_in_h_atnt_2" />
+    <item android:duration="300" android:drawable="@drawable/stat_sys_data_in_h_atnt_3" />
+</animation-list>

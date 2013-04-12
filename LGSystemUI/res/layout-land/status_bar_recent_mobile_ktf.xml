@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="10.669983dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/hotkey_genie" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/recent_hotkey_genie_kt" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        <TextView android:textSize="12.669983dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_genie_kt_NORMAL" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/hotkey_onavi" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/recent_hotkey_navi_kt" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        <TextView android:textSize="12.669983dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_navi_kt_NORMAL" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/hotkey_otv" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/recent_hotkey_tv_kt" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        <TextView android:textSize="12.669983dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_tv_kt_NORMAL" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/hotkey_omarket" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/recent_hotkey_market_kt" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        <TextView android:textSize="12.669983dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_market_kt_NORMAL" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

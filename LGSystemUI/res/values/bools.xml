@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_recents_interface_for_tablets">false</bool>
+    <bool name="config_recents_thumbnail_image_fits_to_xy">false</bool>
+    <bool name="config_hspa_data_distinguishable">false</bool>
+    <bool name="config_statusBarShowNumber">false</bool>
+    <bool name="config_showPhoneRSSIForData">false</bool>
+    <bool name="config_showMin3G">false</bool>
+    <bool name="config_showRotationLock">true</bool>
+    <bool name="config_systemui_feature_nfc">true</bool>
+    <bool name="config_systemui_feature_dualdisplay">true</bool>
+    <bool name="config_systemui_feature_multi_alc">true</bool>
+    <bool name="config_systemui_feature_airplane">true</bool>
+    <bool name="config_systemui_feature_pradaui">false</bool>
+    <bool name="config_systemui_feature_quicknote">true</bool>
+    <bool name="config_systemui_feature_power_saver">true</bool>
+    <bool name="config_systemui_feature_eco_mode">true</bool>
+    <bool name="config_systemui_feature_quick_voice">true</bool>
+    <bool name="config_systemui_feature_floating_launcher">false</bool>
+    <bool name="config_systemui_feature_remote_control">false</bool>
+    <bool name="config_systemui_feature_quiet_mode">false</bool>
+    <bool name="config_systemui_feature_show_qbrowser_att">true</bool>
+    <bool name="config_systemui_feature_screen_timeout">false</bool>
+    <bool name="config_systemui_feature_recent_googleassist">true</bool>
+    <bool name="config_systemui_feature_lte">false</bool>
+    <bool name="config_systemui_feature_smart_reading">false</bool>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/notification_panel" android:background="@color/bg_expanded" android:paddingTop="@dimen/notification_panel_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/notification_panel_margin_left"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <com.android.systemui.statusbar.phone.CarrierLabel android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network" android:gravity="center" android:layout_gravity="bottom" android:id="@id/carrier_label" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/carrier_label_height" android:layout_marginBottom="@dimen/close_handle_height" />
+    <FrameLayout android:id="@id/expanded_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ScrollView android:id="@id/scroll" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls">
+            <com.lge.systemui.AttachLinearLayout android:orientation="vertical" android:id="@id/attach_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/debugbutton_layout" />
+                <include layout="@layout/quicksetting" />
+                <include layout="@layout/floating_launcher" />
+                <include layout="@layout/brightnessslider_layout" />
+                <include layout="@layout/swipe_component" />
+                <include layout="@layout/lge_carrierlabel_4dualsim" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/close_handle_underlap">
+                    <RelativeLayout android:id="@id/setting_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network.EmergencyOnly" android:gravity="center" android:id="@id/emergency_calls_only" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <View android:background="@drawable/indi_noti_title_list_divider" android:layout_width="fill_parent" android:layout_height="@dimen/title_list_divider_height" />
+                    <com.android.systemui.statusbar.policy.NotificationRowLayout android:id="@id/latestItems" android:layout_width="fill_parent" android:layout_height="wrap_content" systemui:rowHeight="@dimen/notification_row_min_height" />
+                </LinearLayout>
+            </com.lge.systemui.AttachLinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <com.android.systemui.statusbar.phone.CloseDragHandle android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/close" android:layout_width="fill_parent" android:layout_height="@dimen/close_handle_height">
+        <ImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/close_handle_height" android:src="@drawable/status_bar_close" android:scaleType="fitXY" />
+    </com.android.systemui.statusbar.phone.CloseDragHandle>
+</FrameLayout>

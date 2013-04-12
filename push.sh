@@ -1,0 +1,4 @@
+#!/bin/sh
+adb remount
+adb push $1 "/system/app/"
+adb reboot

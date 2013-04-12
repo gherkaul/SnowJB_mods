@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/hotkey_item_one" android:paddingRight="@dimen/recentapp_port_lgu_padding1" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/hotkey_hdtv" android:layout_width="81.0dip" android:layout_height="81.0dip" android:src="@drawable/recent_hotkey_hdtv" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        <TextView android:textSize="16.669983dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/hotkey_hdtv_name" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/hotkey_item_two" android:paddingLeft="@dimen/recentapp_port_lgu_padding4" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/hotkey_box" android:layout_width="81.0dip" android:layout_height="81.0dip" android:src="@drawable/recent_hotkey_box" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        <TextView android:textSize="16.669983dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/hotkey_box_name" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

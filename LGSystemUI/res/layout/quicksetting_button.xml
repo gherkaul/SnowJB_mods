@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/quicksetting_button_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/quicksetting_button" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:paddingTop="@dimen/quicksetting_button_paddingTop" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:gravity="center" android:id="@id/quicksetting_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+            <TextView android:textSize="12.0dip" android:ellipsize="none" android:gravity="center" android:id="@id/quicksetting_extra_info" android:paddingLeft="@dimen/brightness_left_padding" android:paddingTop="@dimen/brightness_top_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/quicksetting_textSize" android:ellipsize="none" android:gravity="center" android:layout_gravity="top|center" android:id="@id/quicksetting_label" android:paddingTop="@dimen/quicksetting_text_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:lineSpacingExtra="@dimen/quicksetting_lineSpacingExtra" />
+    </FrameLayout>
+    <View android:id="@id/outline" android:background="@drawable/quicksettings_btn_focus_background" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="status_bar_background">#ff000000</item>
+    <item type="drawable" name="notification_number_text_color">#ffffffff</item>
+    <item type="drawable" name="ticker_background_color">#ff1d1d1d</item>
+    <item type="drawable" name="status_bar_recents_app_thumbnail_background">#88000000</item>
+    <item type="drawable" name="status_bar_notification_row_background_color">#ff090909</item>
+    <item type="drawable" name="recents_callout_line">#99ffffff</item>
+    <item type="drawable" name="notification_item_background_legacy_color">#ffaaaaaa</item>
+    <item type="drawable" name="intruder_bg_pressed">#ff33b5e5</item>
+    <item type="drawable" name="system_bar_background">#ff000000</item>
+    <item type="drawable" name="notification_icon_area_smoke">#aa000000</item>
+    <item type="drawable" name="quicksettings_header_bg_color">#ffa9a9a9</item>
+    <item type="drawable" name="quicksettings_button_on_text_color">#ff5dcde6</item>
+    <item type="drawable" name="quicksettings_button_off_text_color">#ffffffff</item>
+    <item type="drawable" name="quicksettings_button_off_text_color_vzw">#ffababab</item>
+    <item type="drawable" name="quicksettings_drag_font_color">#ff000000</item>
+    <item type="drawable" name="quicksettings_after_drop_font_color">#ff000000</item>
+    <item type="drawable" name="notification_tracking_bg_att">#cc000000</item>
+    <item type="drawable" name="tp_select">#00000000</item>
+    <item type="drawable" name="operator_view_att_color">#ffffffff</item>
+    <item type="drawable" name="operator_view_skt_color">#ff5dcde6</item>
+    <item type="drawable" name="ir_control_gray">#ffababab</item>
+    <item type="drawable" name="ir_control_text_color">#ff3c3c3c</item>
+    <item type="drawable" name="APKTOOL_DUMMY_003f">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_00fa">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0127">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0146">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_027a">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_027b">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_027c">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_027d">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_02b3">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_031e">false</item>
+</resources>
