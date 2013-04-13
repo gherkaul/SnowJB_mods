@@ -7894,36 +7894,37 @@
 
     .line 6255
     :cond_0
-    invoke-virtual {p0, v6}, Landroid/media/AudioService;->getStreamVolume(I)I
+    #SnowLeopardJB: Disable audio automatic lower when headset is plugged in
+    #invoke-virtual {p0, v6}, Landroid/media/AudioService;->getStreamVolume(I)I
 
-    move-result v1
+    #move-result v1
 
-    if-le v1, v7, :cond_1
+    #if-le v1, v7, :cond_1
 
-    iget-boolean v1, p0, Landroid/media/AudioService;->mHeadsetConnectedState:Z
+    #iget-boolean v1, p0, Landroid/media/AudioService;->mHeadsetConnectedState:Z
 
-    if-eqz v1, :cond_1
+    #if-eqz v1, :cond_1
 
     .line 6256
-    invoke-virtual {p0, v6, v7, v4}, Landroid/media/AudioService;->setStreamVolume(III)V
+    #invoke-virtual {p0, v6, v7, v4}, Landroid/media/AudioService;->setStreamVolume(III)V
 
     .line 6258
-    if-nez v0, :cond_1
+    #if-nez v0, :cond_1
 
     .line 6259
-    iget-object v1, p0, Landroid/media/AudioService;->mContext:Landroid/content/Context;
+    #iget-object v1, p0, Landroid/media/AudioService;->mContext:Landroid/content/Context;
 
-    const v2, 0x20c023f
+    #const v2, 0x20c023f
 
-    invoke-virtual {v1, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
+    #invoke-virtual {v1, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
-    move-result-object v1
+    #move-result-object v1
 
-    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    #invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
-    move-result-object v1
+    #move-result-object v1
 
-    invoke-direct {p0, v1}, Landroid/media/AudioService;->ToastPopUp(Ljava/lang/CharSequence;)V
+    #invoke-direct {p0, v1}, Landroid/media/AudioService;->ToastPopUp(Ljava/lang/CharSequence;)V
 
     .line 6265
     .end local v0           #bIsRunToastPopup:Z
