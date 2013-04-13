@@ -1,4 +1,4 @@
 #!/bin/sh
 adb remount
-adb push $1 "/system/app/"
+adb push $2 "/system/$1/"
 adb reboot
